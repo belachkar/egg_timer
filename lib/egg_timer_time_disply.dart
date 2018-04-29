@@ -9,7 +9,7 @@ class _EggTimerTimeDisplayState extends State<EggTimerTimeDisplay> {
   final TextStyle timeTextStyle = TextStyle(
     color: Colors.black,
     fontFamily: 'BebasNeue',
-    fontSize: 110.0,
+    fontSize: 100.0,
     fontWeight: FontWeight.bold,
   );
   final EdgeInsets staticBarPadding = const EdgeInsets.only(top: 24.0);
@@ -19,7 +19,7 @@ class _EggTimerTimeDisplayState extends State<EggTimerTimeDisplay> {
     return new Padding(
       padding: staticBarPadding,
       child: new Text(
-        '45:25',
+        '40:25',
         textAlign: TextAlign.center,
         style: timeTextStyle,
       ),

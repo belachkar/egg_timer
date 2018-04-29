@@ -6,7 +6,7 @@ class EggTimerButton extends StatelessWidget {
   final String text;
 
   EggTimerButton({
-    this.icon, 
+    this.icon,
     this.text
   });
 
@@ -16,7 +16,7 @@ class EggTimerButton extends StatelessWidget {
       splashColor: const Color(0x22000000),
       onPressed: () {},
       child: new Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.only(top: 30.0, bottom: 30.0),
         child: new Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
